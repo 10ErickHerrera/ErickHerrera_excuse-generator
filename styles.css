@@ -1,0 +1,53 @@
+.wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  color: white;
+  background-color: #4CAF50;
+  border: none; 
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;/
+}
+
+button:hover {
+  background-color: #45a049; 
+  transform: translateY(-2px);
+}
+button:active {
+  transform: translateY(1px);
+}
+body {
+  font-family: Arial, sans-serif; 
+  background-color: #f9f9f9; 
+  margin: 0;
+  padding: 20px;
+}
+.who {
+  color: #FF5733; /* Color para "who" (naranja) */
+}
+
+.action {
+  color: #33C1FF; /* Color para "action" (azul claro) */
+}
+
+.what {
+  color: #75FF33; /* Color para "what" (verde claro) */
+}
+
+.when {
+  color: #FF33A6; /* Color para "when" (rosa) */
+}
+h1{
+  color: aliceblue;
+}
+body{
+  background-color: black;
+}
